@@ -1,0 +1,20 @@
+Vehicle Parking Management System - UML (text)
+--------------------------------------------------
+                 <<abstract>>
+                    Person
+                 /          \
+                /            \
+        Customer            StaffMember
+
+                 <<abstract>>
+                    Vehicle
+              /       |       \
+             /        |        \
+           Car       Bike     Truck
+             |
+          implements
+             v
+          Payable <<interface>>
+
+ParkingManagementApp --> ParkingManager --> ParkingLot
+ParkingManagementApp --> Customer/VehicleType/Person/Payable
