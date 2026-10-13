@@ -1,0 +1,93 @@
+==============================================
+      VEHICLE PARKING MANAGEMENT SYSTEM
+==============================================
+Name: Ananya | Phone: 9876543210 | Role: Customer
+Customer ID: C101
+Name: Ravi | Phone: 9123456780 | Role: Parking Staff
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: Enter customer name: Enter phone: Enter registration number: Enter vehicle type (CAR/BIKE/TRUCK): Enter parking hours: 
+Vehicle parked successfully!
+Vehicle{reg='KA01AB1234', type=CAR, owner=Rahul, hours=4}
+Payment must be completed before vehicle exit.
+Exact fee: Rs. 236.00 | Rounded fee (int cast): Rs. 236
+Receipt -> KA01AB1234 | CAR | 4 hour(s) | Fee: Rs. 236.00
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: 
+--- Parked Vehicles ---
+1. Vehicle{reg='KA01AB1234', type=CAR, owner=Rahul, hours=4}
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: Enter registration number to search: Vehicle found:
+Vehicle{reg='KA01AB1234', type=CAR, owner=Rahul, hours=4}
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: 
+--- Parking Summary ---
+Lot: City Center Parking
+Capacity: 20
+Currently parked: 1
+Cars: 1
+Bikes: 0
+Trucks: 0
+Weighted occupied slots: 1
+Total vehicles created: 1
+Parking transactions: 1
+Menu runs: 4
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: Enter registration number for exit: Vehicle exited successfully.
+Final fee: Rs. 236.00
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: 
+--- Parking Summary ---
+Lot: City Center Parking
+Capacity: 20
+Currently parked: 0
+Cars: 0
+Bikes: 0
+Trucks: 0
+Weighted occupied slots: 0
+Total vehicles created: 1
+Parking transactions: 1
+Menu runs: 6
+
+1. Park Vehicle
+2. Display Parked Vehicles
+3. Search Vehicle
+4. Vehicle Exit
+5. Summary
+0. Exit
+Enter your choice: Thank you for using the system.
